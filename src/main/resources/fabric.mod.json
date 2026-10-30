@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "neverrunout",
+  "version": "${version}",
+  "name": "NeverRunOut",
+  "description": "Mark hotbar slots with Caps Lock; when the item runs out it is instantly refilled from your inventory.",
+  "authors": [
+    "zabyt"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "icon": "assets/neverrunout/icon.png",
+  "accessWidener": "neverrunout.classtweaker",
+  "entrypoints": {
+    "client": [
+      "com.zabyt.neverrunout.NeverRunOutClient"
+    ],
+    "modmenu": [
+      "com.zabyt.neverrunout.NeverRunOutModMenu"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*",
+    "zabytlib": "*"
+  }
+}
